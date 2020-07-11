@@ -1,2 +1,0 @@
-print("krng")
-print("asdasda")
