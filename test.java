@@ -45,15 +45,19 @@ public class test{
         // System.out.println(n_comment);
         String check_file[] = new String[100];
         for(int k=0; k<12; k++){
+            int n=0;
             check_file = value_file[n_file].split(" ");
+            System.out.println("check_file: "+check_file.length+" and n_file: "+n_file);
             if(state.equals("state_0")){
-                if(check_file[n_file].equals("//")) {
-                    String n_cha[] = value_file[n_file].split("");
-                    n_comment = n_cha.length;
+                if(check_file[n].equals("//")) {
+                    // String n_cha[] = value_file[n_file].split("");
+                    // n_comment = n_cha.length;
                 }
             }
-            System.out.println(n_file);
+            // System.out.println(check_file.length);
+            // System.out.println(n_file);
             n_file++;
+            n++;
             if(n_file == value_file.length) break;
 
         }

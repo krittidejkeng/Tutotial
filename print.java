@@ -9,11 +9,11 @@ public class print {
         while(true){
             String str_split[] = str[i].split(" "); 
             // for(String hh:str_split){
-            //     System.out.println(hh);
+                System.out.println(str_split.length);
             // }
-            if(str_split[i].equals("//")){
+            // if(str_split[i].equals("//")){
                 
-            }
+            // }
             i++;
         }
     }
