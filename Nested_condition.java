@@ -28,8 +28,6 @@ public class Nested_condition{
         
 
         String state = "state_0";
-        String input = "";
-        int n_file = 0; //สำหรับนับอินเด็กในไฟล์
         int n_comment = 0;
         int line_comment = 0;
         int s_line = 0;
@@ -50,7 +48,7 @@ public class Nested_condition{
                         System.out.println("\n************************\nThis is !kkkk[0].equals("+"): "+value_file[n]);
                     }
                 }
-                n_file++;
+                
                 n++;
             } catch (Exception e) {
                 break;
